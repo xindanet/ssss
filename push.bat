@@ -1,7 +1,8 @@
 @echo off
 cls
 :start
+echo %random% >1.txt
 git add .
-git commit -m "1"
+git commit -m "haha"
 git push
 goto :start
